@@ -1,0 +1,43 @@
+ls
+touch file.txt
+mkdir dev
+mkdir mnt
+mkdir ppal
+touch abc.txt
+cd ..
+ls
+touch sysmgr.log
+ls
+rm abc.txt
+rm file.txt
+rm ppal
+rm sysmgr.log
+ls
+cd mnt
+mkdir data0
+cd data0
+mkdir ppal
+cd ppal
+touch sysmgr.log
+ls
+pwd
+cd /mnt
+touch file.txt
+ls
+cd /
+mkdir opt
+ls /mnt/data0/ppal
+ls /mnt
+mv /mnt/file.txt /mnt/data0/ppal
+ls /mnt/data0/ppal
+ls /mnt
+mv /mnt/data0/ppal /opt
+ls /mnt/data0
+ls /opt
+cd opt
+cp ppal/sysmgr.log /dev
+ls ppal/
+ls /dev
+cd /
+touch design.txt
+vi design.txt
