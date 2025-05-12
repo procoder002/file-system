@@ -52,7 +52,7 @@ procoder@ubuntu:~/github$ help
 * Now using these commands to create your own filesystem, play with it. Once done, Press ctrl+c or type 'exit' to exit from this custom shell
 
 ### Build Requirement:
-* g++ compiler(-std=c++11)
+* g++ compiler (--stdc++11)
 * cmake >= 2.8
 
 
