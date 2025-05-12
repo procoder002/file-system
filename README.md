@@ -54,7 +54,7 @@ procoder@ubuntu:~/github$ help
 ### Build Requirement:
 * g++ compiler (--stdc++11)
 * cmake >= 2.8
-
+* libedit (Ubuntu: sudo apt-get install libedit-dev)
 
 ### Future Enhancement:
 * Recording Command History: an API 'record on' should write all subsequent commands into a file, which can be used to re-run the same scenario(using 'load' API). 'record off' should stop recoding.
